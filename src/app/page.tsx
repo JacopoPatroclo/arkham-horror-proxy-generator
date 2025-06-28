@@ -1,10 +1,4 @@
-"use client";
-
-import { useState } from "react";
-
 export default function Home() {
-  const [content, setContent] = useState("");
-
   return (
     <div className="max-w-3xl m-auto flex flex-col gap-3.5">
       <div>
@@ -12,7 +6,7 @@ export default function Home() {
           Welcome to the Arkham Horror Proxy Generator!
         </p>
         <p className="text-sm">
-          Yust paste the card names or codes that you want to generate proxies
+          Just paste the card names or codes that you want to generate proxies
           for.
         </p>
       </div>
@@ -22,8 +16,6 @@ export default function Home() {
         action="/api/make-pdf"
       >
         <textarea
-          value={content}
-          onChange={(e) => setContent(e.target.value)}
           name="content"
           className="w-full h-96 resize-none border border-gray-300 rounded-md p-4"
           placeholder="4x Unexpected Courage"

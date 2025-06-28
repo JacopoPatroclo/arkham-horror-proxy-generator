@@ -36,6 +36,10 @@ export default function Home() {
           Generate Proxies (in a new tab so you don&apos;t lose your list )
         </button>
       </form>
+
+      <p className="text-sm">
+        Made by <a href="https://github.com/JacopoPatroclo">Me</a> with ❤️
+      </p>
     </div>
   );
 }

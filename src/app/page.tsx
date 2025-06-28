@@ -6,7 +6,7 @@ export default function Home() {
   const [content, setContent] = useState("");
 
   return (
-    <div className="max-w-3xl m-auto pt-32 flex flex-col gap-3.5">
+    <div className="max-w-3xl m-auto flex flex-col gap-3.5">
       <div>
         <p className="text-2xl">
           Welcome to the Arkham Horror Proxy Generator!
